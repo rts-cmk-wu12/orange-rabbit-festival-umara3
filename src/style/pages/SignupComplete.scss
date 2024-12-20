@@ -1,0 +1,51 @@
+
+ 
+
+ .start::before{
+    background-image: url("./bg.png");
+    content: "";
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -1;
+  filter: blur(5px);
+}
+.signup-complete {
+    background-color: white;
+   max-width: 390px;
+   
+    margin-top: 14em;
+    margin-left: 45em;
+    text-align: center;
+    padding: 20px;
+    
+   
+  }
+  
+  h1 {
+    color: #333;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-top: 1em;
+  }
+  
+  .order-tickets-button {
+    padding: 10px 20px;
+    background-color: #ff7b00;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 2em;
+    cursor: pointer;
+  }
+  
+  .order-tickets-button:hover {
+    background-color: #ff7b00;
+  }
+  
